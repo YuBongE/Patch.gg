@@ -1,0 +1,14 @@
+@import "font-file.css";
+@import "reset.css";
+@import "variables.css";
+
+
+/* Components */
+@import "components/main.css";
+
+/* Screens */
+@import "screens/LOL.css";
+
+body {
+  font-family: "apple-R", sans-serif;
+}

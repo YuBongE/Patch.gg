@@ -1,0 +1,66 @@
+.main-body {
+  background-color: #272625;
+}
+
+.main-header {
+  width: 100%;
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #3f4040;
+}
+
+.main-header__title {
+  font-family: apple-SB;
+  font-size: 70px;
+}
+
+.main-header__text {
+  margin-top: 20px;
+  font-family: apple-SB;
+  font-size: 30px;
+}
+
+/*여기부터 메인 스크린*/
+
+.main-screen {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+}
+
+/*여기부터 메인 스크린*/
+
+
+.main-screen-games {
+  width: 60%;
+  min-height: 500px;
+  min-width: 250px;
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-screen-games_icons {
+  width: 13vw;
+  height: 13vw;
+  padding: 0;
+  background-color: gray;
+  margin: 30px 15px;
+}
+
+.main-adsense {
+  width: 160px;
+  min-width: 160px;
+  height: 600px;
+  background-color: wheat;
+  margin-top: 50px;
+  margin: 50px 100px;
+}

@@ -1,0 +1,77 @@
+.main-screen-games-lol {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.main-screen-games-patch__columm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2vw;
+  margin-bottom: 4vw;
+}
+
+.main-screen-games-patch-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+  margin-left: 2vw;
+}
+
+.main-screen-games-patch-title i {
+  font-size: 150%;
+}
+
+.main-screen-games-patch-title span {
+  font-size: 150%;
+  font-family: apple-SB;
+  margin-left: 10px;
+}
+
+.main-screen-games-patch-list {
+  width: 80%
+}
+
+
+.main-screen-games-patch-list-ul {
+  margin-top: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-screen-games-patch-list-li {
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+}
+
+
+.main-screen-games-patch-list-img {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-screen-games-nerf-list-img {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: orange;
+}
